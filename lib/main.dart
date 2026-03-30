@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     return Consumer<ThemeProvider>(
       builder: (context, themeProvider, child) {
         return MaterialApp(
-          title: 'My Learning Application',
+          title: 'Learn with Jacks!',
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
               seedColor: const Color.fromARGB(255, 50, 3, 241),
