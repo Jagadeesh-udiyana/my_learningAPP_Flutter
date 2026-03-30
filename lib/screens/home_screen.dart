@@ -3,6 +3,8 @@ import '../widgets/app_drawer.dart';
 import 'package:fl_chart/fl_chart.dart';
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final isDarkMode = Theme.of(context).brightness == Brightness.dark;
@@ -821,7 +823,7 @@ class HomeScreen extends StatelessWidget {
         ),
         PieChartSectionData(
           color: Colors.red,
-          value: 5,
+          value: 15,
           title: '5\n(Absent)',
           radius: 80,
           titleStyle: const TextStyle(
@@ -832,7 +834,7 @@ class HomeScreen extends StatelessWidget {
         ),
         PieChartSectionData(
           color: Colors.yellow,
-          value: 2,
+          value: 12,
           title: '2\n(Leave)',
           radius: 80,
           titleStyle: const TextStyle(
