@@ -3,6 +3,8 @@ import 'package:mylearningapp/screens/home_screen.dart';
 import '../widgets/app_drawer.dart';
 
 class SettingsScreen extends StatefulWidget {
+  const SettingsScreen({super.key});
+
   @override
   State<SettingsScreen> createState() => _SettingsScreenState();
 }
