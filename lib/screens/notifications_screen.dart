@@ -127,7 +127,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
   }
 
   Widget _buildStatsCard(BuildContext context) {
-    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    // final isDarkMode = Theme.of(context).brightness == Brightness.dark;
     final unreadCount = notifications.where((n) => !n.isRead).length;
 
     return Container(

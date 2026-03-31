@@ -7,7 +7,7 @@ class AboutScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    // final isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
       drawer: const AppDrawer(currentRoute: "About"),
@@ -63,7 +63,7 @@ class AboutScreen extends StatelessWidget {
   }
 
   Widget _buildAppHeader(BuildContext context) {
-    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    // final isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     return Container(
       width: double.infinity,

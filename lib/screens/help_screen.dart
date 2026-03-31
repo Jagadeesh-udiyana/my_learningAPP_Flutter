@@ -228,7 +228,7 @@ class _HelpScreenState extends State<HelpScreen> {
   }
 
   Widget _buildContactSupportCard(BuildContext context) {
-    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    // final isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     return Container(
       padding: const EdgeInsets.all(16),
