@@ -60,7 +60,8 @@ class AppDrawer extends StatelessWidget {
       ),
       tileColor: isSelected ? Colors.deepOrange.withOpacity(0.1) : null,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-      onTap: () => navigate(context, screen),
+      onTap: () =>
+          Navigator.push(context, MaterialPageRoute(builder: (_) => screen)),
     );
   }
 
